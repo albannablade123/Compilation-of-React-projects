@@ -1,0 +1,164 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  align-content: flex-start;
+}
+.container {
+  background-color: #1A1B21;
+  border-radius: 5px;
+  height: 399px;
+  width: 317px;
+}
+
+.job-title {
+  color: #F3BF99;
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 12.8px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+.main-title {
+  padding-top: 21px;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.button-container{
+  margin-bottom: 0px;
+  margin-top: 10px;
+  }
+
+.button-email{
+  width: 115px;
+  padding: 9px,13px,9px,11px;
+  border-radius: 6px;
+  margin-right: 0px;
+  font-size: 14px;
+  height: 34px;
+
+}
+
+.button-linkedin{
+  background-color: #5093E2;
+  color: white;
+  border-radius: 6px;
+  margin-left: 17px;
+  font-size: 14px;
+  height: 34px;
+}
+
+.about-page{
+  color: white;
+  padding: 36px, 34px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 36px;
+  padding-right: 34px;
+}
+
+.about-page > h2 {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.about-page > p {
+  margin-top: 5px;
+  font-size: 10.24px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 0px;
+  vertical-align: top;
+  font-family: Inter;
+  line-height: 15.36px;
+  
+}
+
+
+.website-title{
+  margin-top: 8.81px;
+  font-size: 10.24px;
+  color: white;
+  font-weight: 400px;
+  margin-top: 0.81px;
+  margin-bottom: 10px;
+}
+
+.footer-container{
+  background-color: #161619;
+  margin: 0px;
+  height: 64px;
+  width: 317px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  align-items: center;
+}
+
+.image-profile{
+  max-width: 317px;
+  max-height: 317px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 0px;
+}
+
+.image-container{
+  width: 317px;
+  height: 317px;
+  margin-bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100%;
+}
+.footer-container > img{
+  padding: 15px 12px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.App{
+  padding-top: 44px;
+  padding-bottom: 40px;
+  margin: 0;
+
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
