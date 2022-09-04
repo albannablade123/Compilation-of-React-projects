@@ -14,9 +14,9 @@ last application is an interactive meme generator.
 
 ## Install Build and Run
 Start things off by cloning the repository which requires a version of Git to be installed
-'''
+```
 #Clone this repository
-$ git clone https://github.com/albannablade123/movieO.git
+$ git clone https://github.com/albannablade123/Compilation-of-React-projects.git
 
 # Change directory to preferred project
 
@@ -38,7 +38,9 @@ $ npm install
 # Run The Project
 $ npm run dev
 
-'''
+```
+
+
 
 ## Built With
 * ReactJS
