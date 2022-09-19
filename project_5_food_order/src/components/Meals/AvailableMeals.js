@@ -14,7 +14,6 @@ const AvailableMeals = (props) => {
       .get("http://localhost:8000/read?limit=70&offset=1")
       .then((response) => {
         if (response.data[0] === undefined) {
-          console.log('reached here 1')
           throw new Error("something went wrong");
         }
         const mealResult = response.data;
