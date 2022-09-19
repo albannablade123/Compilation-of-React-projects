@@ -4,6 +4,20 @@
     margin: 2rem auto;
     animation: meals-appear 1s ease-out forwards;
     color: #3A160E;
+    overflow: auto;
+    max-height: 20%;
+    height: 20%;
+  }
+
+  .MealsisLoading{
+    text-align: center;
+    color: white;
+  }
+
+  .MealsisError{
+    text-align: center;
+    font-weight: 500;
+    font-size: 5rem;
   }
   
   .meals ul {
