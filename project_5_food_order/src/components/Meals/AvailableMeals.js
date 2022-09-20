@@ -11,7 +11,7 @@ const AvailableMeals = (props) => {
 
   const getAllMeals = async(limit, offset) => {
     axios
-      .get("http://localhost:8000/read?limit=70&offset=1")
+      .get("http://localhost:8000/read?limit=10&offset=1")
       .then((response) => {
         if (response.data[0] === undefined) {
           throw new Error("something went wrong");
@@ -26,7 +26,6 @@ const AvailableMeals = (props) => {
 
   useEffect(() => {
     getAllMeals().catch((error) => {
-      console.log('reached here')
       setIsLoading(false);
       setHttpError(error);
     });
@@ -40,7 +39,6 @@ const AvailableMeals = (props) => {
       </section>
     );
   }
-
 
   if(httpError !== undefined){
     return (
